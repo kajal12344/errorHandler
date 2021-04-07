@@ -1,0 +1,8 @@
+  <div>
+    <span>{{message}}</span>
+  </div>
+<app-test (childEvent)="message=$event" [parentData] = "name"></app-test>
+<router-outlet></router-outlet>
+
+<app-employeelist></app-employeelist>
+<app-employee-details></app-employee-details>
